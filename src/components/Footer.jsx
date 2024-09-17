@@ -40,7 +40,7 @@ const Footer = ({ todos }) => {
 
   return (
     <StyledFooter>
-      <p>剩餘項目數erg： {todos.length}</p>
+      <p>剩餘項目數： {todos.length}</p>
       <StyledButton onClick={handleClick}>登出</StyledButton>
     </StyledFooter>
   );
