@@ -1,7 +1,7 @@
 import './App.scss';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { HomePage, LoginPage, SignUpPage, TodoPage } from 'pages';
-import { AuthProvider } from 'contexts/AuthContext';
+import { AuthProvider } from 'context/AuthContext';
 
 // AuthProvider需要放在 BrowserRouter 裡面，因為我們在 AuthProvider 裡有使用到瀏覽器的資訊
 function App() {
